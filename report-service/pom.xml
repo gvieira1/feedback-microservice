@@ -61,11 +61,7 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
-		</dependency>
+	
 		<dependency>
   		  <groupId>org.postgresql</groupId>
   		  <artifactId>postgresql</artifactId>
@@ -86,16 +82,7 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.springdoc</groupId>
-			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-			<version>2.8.8</version>
-		</dependency>
-		<dependency>
-  			<groupId>org.apache.commons</groupId>
-  			<artifactId>commons-csv</artifactId>
-  			<version>1.10.0</version>
-		</dependency>
+		
 		
 		<dependency>
    			 <groupId>org.springframework.boot</groupId>
